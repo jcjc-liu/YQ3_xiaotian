@@ -877,25 +877,19 @@
                                                                             "arg_type": 100022, 
                                                                             "args_list": [
                                                                                 {
-                                                                                    "action_type": "REMOVE_BUFF_INS", 
+                                                                                    "action_type": "REMOVE_BUFF_TYPE", 
                                                                                     "args_list": [
                                                                                         {
-                                                                                            "arg_type": 100076, 
+                                                                                            "arg_type": 100006, 
+                                                                                            "args_list": [], 
+                                                                                            "sub_type": "GET_MOVER_OWNER_UNIT"
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100046, 
                                                                                             "args_list": [
-                                                                                                {
-                                                                                                    "arg_type": 100006, 
-                                                                                                    "args_list": [], 
-                                                                                                    "sub_type": "GET_MOVER_OWNER_UNIT"
-                                                                                                }, 
-                                                                                                {
-                                                                                                    "arg_type": 100046, 
-                                                                                                    "args_list": [
-                                                                                                        134251039
-                                                                                                    ], 
-                                                                                                    "sub_type": 1
-                                                                                                }
+                                                                                                134251039
                                                                                             ], 
-                                                                                            "sub_type": "GET_LAST_MODIFIER_INSTANCE"
+                                                                                            "sub_type": 1
                                                                                         }
                                                                                     ], 
                                                                                     "bp": false, 

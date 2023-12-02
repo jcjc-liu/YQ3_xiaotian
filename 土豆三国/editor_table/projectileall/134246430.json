@@ -5,7 +5,7 @@
     "description": -2054000378, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        102539, 
+        100896, 
         {
             "__tuple__": true, 
             "items": [
@@ -32,7 +32,7 @@
         }, 
         1.0, 
         {
-            "anim": "ability_4", 
+            "anim": "rush", 
             "base_color_mod": 0, 
             "base_tint_color": [
                 59, 
@@ -41,14 +41,14 @@
                 0.5
             ], 
             "is_loop": false, 
-            "model": 103014, 
+            "model": 3005, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
                     0.0, 
-                    0.0, 
-                    0.0
+                    -0.5, 
+                    -1.0
                 ]
             }, 
             "rotate": {
@@ -67,11 +67,11 @@
                     1.0
                 ]
             }, 
-            "use_base_tint_color": false
+            "use_base_tint_color": true
         }
     ], 
     "effect_friend": [
-        102539, 
+        100896, 
         {
             "__tuple__": true, 
             "items": [
@@ -98,7 +98,7 @@
         }, 
         1.0, 
         {
-            "anim": "ability_4", 
+            "anim": "rush", 
             "base_color_mod": 0, 
             "base_tint_color": [
                 59, 
@@ -107,14 +107,14 @@
                 0.5
             ], 
             "is_loop": false, 
-            "model": 103014, 
+            "model": 3005, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
                 "items": [
                     0.0, 
-                    0.0, 
-                    0.0
+                    -0.5, 
+                    -1.0
                 ]
             }, 
             "rotate": {
@@ -133,7 +133,7 @@
                     1.0
                 ]
             }, 
-            "use_base_tint_color": false
+            "use_base_tint_color": true
         }
     ], 
     "icon": 100000, 

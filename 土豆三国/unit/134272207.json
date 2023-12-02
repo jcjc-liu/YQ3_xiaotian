@@ -777,19 +777,50 @@
                                                                                 {
                                                                                     "args_list": [
                                                                                         {
-                                                                                            "arg_type": 100006, 
+                                                                                            "arg_type": 100021, 
                                                                                             "args_list": [
-                                                                                                [
-                                                                                                    "UNIT_ENTITY", 
-                                                                                                    "\u5438\u5f15\u5bf9\u8c61", 
-                                                                                                    "local"
-                                                                                                ]
+                                                                                                {
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100006, 
+                                                                                                            "args_list": [
+                                                                                                                [
+                                                                                                                    "UNIT_ENTITY", 
+                                                                                                                    "\u5438\u5f15\u5bf9\u8c61", 
+                                                                                                                    "local"
+                                                                                                                ]
+                                                                                                            ], 
+                                                                                                            "sub_type": 11
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "condition_type": "IS_UNIT_ALIVE", 
+                                                                                                    "element_id": 939585537617295, 
+                                                                                                    "enable": true
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100006, 
+                                                                                                            "args_list": [
+                                                                                                                [
+                                                                                                                    "UNIT_ENTITY", 
+                                                                                                                    "\u5438\u5f15\u5bf9\u8c61", 
+                                                                                                                    "local"
+                                                                                                                ]
+                                                                                                            ], 
+                                                                                                            "sub_type": 11
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "condition_type": "TYPE_IS_EXIST", 
+                                                                                                    "element_id": 939585537617278, 
+                                                                                                    "enable": true
+                                                                                                }
                                                                                             ], 
-                                                                                            "sub_type": 11
+                                                                                            "sub_type": 1
                                                                                         }
                                                                                     ], 
-                                                                                    "condition_type": "TYPE_IS_EXIST", 
-                                                                                    "element_id": 939585537617278, 
+                                                                                    "condition_type": "AND", 
+                                                                                    "element_id": 939585537617289, 
                                                                                     "enable": true
                                                                                 }
                                                                             ], 
