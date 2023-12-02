@@ -1,0 +1,165 @@
+{
+    "trigger_dict": {
+        "541229418": {
+            "action": [
+                {
+                    "action_type": "SET_TABLE_VALUE_ND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                "8599df08-3a6f-4461-902c-74ca81a4bc2f"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u6b66\u5c06id", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "\u5c5e\u6027\u540d\u79f0", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                "8599df08-3a6f-4461-902c-74ca81a4bc2f"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "\u6b66\u5c06id", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                [
+                                                    "STRING", 
+                                                    "\u5c5e\u6027\u540d\u79f0", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                }, 
+                                {
+                                    "arg_type": 100017, 
+                                    "args_list": [
+                                        "+"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "add", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "sub_type": "ARITHMETIC_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 541229418000011, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u5728\u5c40\u5185\u589e\u52a0id\u4e3a{\u6b66\u5c06id}\u7684\u6b66\u5c06\u7684{\u5c5e\u6027\u540d\u79f0}\u5c5e\u6027{add}", 
+            "func_id": "af46046e884011eeae1330d042e9dfc9", 
+            "func_name": "\u589e\u52a0\u5c40\u5185\u6b66\u5c06\u5c5e\u6027", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6b66\u5c06id", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u5c5e\u6027\u540d\u79f0", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "add", 
+                        true
+                    ]
+                }
+            ], 
+            "group_id": "pV9hQIhAEe6NQDDQQunfye", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 541229418, 
+            "trigger_name": "\u589e\u52a0\u5c40\u5185\u6b66\u5c06\u5c5e\u6027", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_function_": true, 
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    541229418, 
+                    "\u589e\u52a0\u5c40\u5185\u6b66\u5c06\u5c5e\u6027"
+                ]
+            }
+        ], 
+        "is_sub_folder": true, 
+        "key": "pV9hQIhAEe6NQDDQQunfye", 
+        "name": "\u589e\u52a0\u5c40\u5185\u6b66\u5c06\u5c5e\u6027"
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "trigger_dict": {
+        "1676816581": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "\u5c5e\u6027\u503c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        "8599df08-3a6f-4461-902c-74ca81a4bc2f"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u6b66\u5c06\u4f4d\u7f6e\u7d22\u5f15", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "STRING", 
+                                                "\u5c5e\u6027\u540d", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1676816581000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": 400342, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "\u5c5e\u6027\u503c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1676816581000001, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u83b7\u5f97\u6b66\u5c06\u4f4d\u7f6e\u7d22\u5f15\u4e3a{\u6b66\u5c06\u4f4d\u7f6e\u7d22\u5f15}\u7684\u57fa\u7840\u5c5e\u6027{\u5c5e\u6027\u540d}", 
+            "func_id": "9ac7d2a16e2b11eeaa8730d042e9dfc9", 
+            "func_name": "\u83b7\u5f97\u57fa\u7840\u5c5e\u6027", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6b66\u5c06\u4f4d\u7f6e\u7d22\u5f15", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u5c5e\u6027\u540d", 
+                        true
+                    ]
+                }
+            ], 
+            "func_return": true, 
+            "func_rtv_name_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u5c5e\u6027\u503c", 
+                        "FLOAT"
+                    ]
+                }
+            ], 
+            "group_id": "kSlcAG4rEe65XzDQQunfyT", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1676816581, 
+            "trigger_name": "\u83b7\u5f97\u57fa\u7840\u5c5e\u6027", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_function_": true, 
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1676816581, 
+                    "\u83b7\u5f97\u57fa\u7840\u5c5e\u6027"
+                ]
+            }
+        ], 
+        "is_sub_folder": true, 
+        "key": "kSlcAG4rEe65XzDQQunfyT", 
+        "name": "\u83b7\u5f97\u57fa\u7840\u5c5e\u6027"
+    }
+}

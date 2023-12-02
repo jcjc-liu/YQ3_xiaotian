@@ -1,0 +1,363 @@
+{
+    "trigger_dict": {
+        "1609503120": {
+            "action": [
+                {
+                    "action_type": "STOP_SOUND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "GET_CLIENT_ROLE"
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "SOUND_ENTITY", 
+                                        "\u80cc\u666f\u97f3\u4e50"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1609503120000143, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "SOUND_ENTITY", 
+                                        "\u80cc\u666f\u97f3\u4e50"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_CLIENT_ROLE"
+                                }, 
+                                {
+                                    "arg_type": 100084, 
+                                    "args_list": [
+                                        [
+                                            "AUDIO_KEY", 
+                                            "\u80cc\u666f\u97f3\u4e50\u58f0\u97f3\u7c7b\u578b", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        [
+                                            "BOOLEAN", 
+                                            "\u7ed3\u675f\u540e\u662f\u5426\u5faa\u73af", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "\u6de1\u5165\u65f6\u95f4", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "\u6de1\u51fa\u65f6\u95f4", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                true, 
+                                true
+                            ], 
+                            "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1609503120000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u64ad\u653e\u80cc\u666f\u97f3\u4e50{\u80cc\u666f\u97f3\u4e50\u58f0\u97f3\u7c7b\u578b}", 
+            "func_id": "553af25e8b3811eeb47a30d042e9dfc9", 
+            "func_name": "\u64ad\u653e\u80cc\u666f\u97f3\u4e50", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u80cc\u666f\u97f3\u4e50\u58f0\u97f3\u7c7b\u578b", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6de1\u5165\u65f6\u95f4", 
+                        false
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6de1\u51fa\u65f6\u95f4", 
+                        false
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u7ed3\u675f\u540e\u662f\u5426\u5faa\u73af", 
+                        false
+                    ]
+                }
+            ], 
+            "group_id": "Th2BUYs4Ee6T7zDQQunfyR", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1609503120, 
+            "trigger_name": "\u64ad\u653e\u80cc\u666f\u97f3\u4e50", 
+            "valid": true
+        }, 
+        "1818063250": {
+            "action": [
+                {
+                    "action_type": "STOP_SOUND", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "GET_CLIENT_ROLE"
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "SOUND_ENTITY", 
+                                        "\u6b66\u5c06\u8bed\u97f3"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1609503120000143, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "SOUND_ENTITY", 
+                                        "\u6b66\u5c06\u8bed\u97f3"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100214, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_CLIENT_ROLE"
+                                }, 
+                                {
+                                    "arg_type": 100084, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "AUDIO_KEY", 
+                                                "\u6b66\u5c06\u8bed\u97f3\u58f0\u97f3\u7c7b\u578b", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "BOOLEAN", 
+                                                "\u7ed3\u675f\u540e\u662f\u5426\u5faa\u73af", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "\u6de1\u5165\u65f6\u95f4", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "\u6de1\u51fa\u65f6\u95f4", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                true, 
+                                true
+                            ], 
+                            "sub_type": "PLAY_SOUND_FOR_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1609503120000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u64ad\u653e\u6b66\u5c06\u8bed\u97f3{\u6b66\u5c06\u8bed\u97f3\u58f0\u97f3\u7c7b\u578b}", 
+            "func_id": "70eec95e8b3c11eeb51330d042e9dfc9", 
+            "func_name": "\u64ad\u653e\u6b66\u5c06\u8bed\u97f3", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6b66\u5c06\u8bed\u97f3\u58f0\u97f3\u7c7b\u578b", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u7ed3\u675f\u540e\u662f\u5426\u5faa\u73af", 
+                        false
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6de1\u5165\u65f6\u95f4", 
+                        false
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u6de1\u51fa\u65f6\u95f4", 
+                        false
+                    ]
+                }
+            ], 
+            "group_id": "Th2BUYs4Ee6T7zDQQunfyR", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1818063250, 
+            "trigger_name": "\u64ad\u653e\u6b66\u5c06\u8bed\u97f3", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_function_": true, 
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1609503120, 
+                    "\u64ad\u653e\u80cc\u666f\u97f3\u4e50"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1818063250, 
+                    "\u64ad\u653e\u6b66\u5c06\u8bed\u97f3"
+                ]
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "Th2BUYs4Ee6T7zDQQunfyR", 
+        "name": "\u58f0\u97f3\u51fd\u6570"
+    }
+}

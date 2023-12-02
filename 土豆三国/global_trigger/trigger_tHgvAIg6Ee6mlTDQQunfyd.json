@@ -1,0 +1,473 @@
+{
+    "trigger_dict": {
+        "1230832028": {
+            "action": [
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                [
+                                                    "BOOLEAN", 
+                                                    "\u65f6\u95f4\u6682\u505c"
+                                                ]
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100035, 
+                                            "args_list": [
+                                                "=="
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "BOOL_COMPARE", 
+                                    "element_id": 1230832028000002, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "BOOLEAN", 
+                                                        "\u65f6\u95f4\u6682\u505c"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000007, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SOFT_RESUME_GAME", 
+                                    "args_list": [], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000010, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "e51cf2ab-2437-4d7e-9963-10ec90fccfa5"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000003, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "a06b552f-340c-4098-8520-03f32bab0eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000060, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                [
+                                                    "BOOLEAN", 
+                                                    "\u65f6\u95f4\u6682\u505c"
+                                                ]
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000014, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SOFT_PAUSE_GAME", 
+                                    "args_list": [], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000021, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "e51cf2ab-2437-4d7e-9963-10ec90fccfa5"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000024, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "123af235-c8d3-4ed1-92c7-35c150576013"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000040, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "a3ce9a6b-d02e-49d7-8c11-05564edb768e"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000049, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [], 
+                                            "sub_type": "GET_CLIENT_ROLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                false
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "a06b552f-340c-4098-8520-03f32bab0eca"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1230832028000069, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1230832028000005, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200220, 
+                            "args_list": [
+                                25
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1230832028000001, 
+                    "enable": true, 
+                    "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+                }
+            ], 
+            "group_id": "tHgvAIg6Ee6mlTDQQunfyd", 
+            "p_trigger_id": null, 
+            "trigger_id": 1230832028, 
+            "trigger_name": "\u8f6f\u6682\u505c/\u6062\u590d\u6e38\u620f", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1230832028, 
+                    "\u8f6f\u6682\u505c/\u6062\u590d\u6e38\u620f"
+                ]
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1671696743, 
+                            "\u6253\u5f00\u5f00\u53d1\u8005\u9762\u677f\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1353167252, 
+                            "\u5173\u95ed\u5f00\u53d1\u8005\u9762\u677f\uff08k\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "7Gx4UYzyEe6QYjDQQunfyf", 
+                "name": "\u5f00\u53d1\u7740\u4e13\u4e1a\u753b\u677f"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            899494291, 
+                            "\u6253\u5f00\u8d44\u6e90\u7c7b\u578b\u754c\u9762\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            749732245, 
+                            "\u5173\u95ed\u8d44\u6e90\u7c7b\u578b\u754c\u9762\u6a21\u5757\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1453781352, 
+                            "\u589e\u52a0\u9a81\u9a91\u4ee4\u7ecf\u9a8c\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            181510515, 
+                            "\u589e\u52a0\u74e6\u7247\u6570\u91cf\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            278446513, 
+                            "\u589e\u52a0\u666e\u901a\u8d44\u6e90\uff08k\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "z644MIzYEe6pvzDQQunfyV", 
+                "name": "\u8d44\u6e90\u7c7b\u578b\uff08k\uff09"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1069293977, 
+                            "\u70b9\u51fb\u4efb\u9009\u6b66\u5c06/\u88c5\u5907\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            145502621, 
+                            "\u6253\u5f00\u4efb\u9009\u6b66\u5c06\u754c\u9762\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            246170014, 
+                            "\u6253\u5f00\u4efb\u9009\u88c5\u5907\u754c\u9762\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            447500703, 
+                            "\u5173\u95ed\u4efb\u9009\u6b66\u5c06/\u88c5\u5907\u754c\u9762\uff08k\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "9IPogIzsEe663jDQQunfye", 
+                "name": "\u4efb\u9009\u6b66\u5c06/\u88c5\u5907"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            596767134, 
+                            "\u6253\u5f00\u79fb\u9664\u6b66\u5c06\u754c\u9762\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1217663391, 
+                            "\u6253\u5f00\u79fb\u9664\u88c5\u5907\u754c\u9762\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            841376161, 
+                            "\u70b9\u51fb\u79fb\u9664\u6b66\u5c06/\u88c5\u5907\uff08k\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1916006818, 
+                            "\u5173\u95ed\u79fb\u9664\u6b66\u5c06/\u88c5\u5907\u754c\u9762\uff08k\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "8mynnoz0Ee6KITDQQunfye", 
+                "name": "\u79fb\u9664\u6b66\u5c06/\u88c5\u5907"
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "tHgvAIg6Ee6mlTDQQunfyd", 
+        "name": "\u5f00\u53d1\u8005\u4e13\u7528\u89e6\u53d1\u5668\uff08k\uff09"
+    }
+}

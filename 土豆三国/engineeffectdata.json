@@ -1,0 +1,121 @@
+{
+    "bloom": {
+        "bloom_decay": 1.0, 
+        "bloom_open": true, 
+        "bloom_strength": 1.0
+    }, 
+    "color_grading": {
+        "color_grading_type": 1
+    }, 
+    "env_time_of_day": {
+        "time_of_day_template": 300001
+    }, 
+    "fog": {
+        "height_fog": true, 
+        "height_fog_color": {
+            "__tuple__": true, 
+            "items": [
+                254, 
+                254, 
+                254, 
+                1
+            ]
+        }, 
+        "height_fog_density": 0.3, 
+        "height_fog_end": 10.0, 
+        "height_fog_fall_off": 1.0
+    }, 
+    "post_style": {
+        "post_style_shader_params": {
+            "1": {
+                "DepthScale": 0.5, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ]
+                }, 
+                "PixelIntensity": 3.42
+            }, 
+            "4": {
+                "DepthScale": 1.0, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.05, 
+                        0.05
+                    ]
+                }, 
+                "TotalControl": 2.32
+            }
+        }, 
+        "post_style_type": 4
+    }, 
+    "shadow_quality": {
+        "dynamic_shadow_cascades": 2.0, 
+        "dynamic_shadow_distance_movable_light": 80.0, 
+        "enable_clicli_distance": false, 
+        "enable_ue4_csm": true
+    }, 
+    "sky_box": {
+        "sky_box_type": 100000
+    }, 
+    "terrain": {
+        "terrain_version": 2, 
+        "water_materials": [
+            {
+                "color": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.16862745098039217, 
+                        0.4117647058823529, 
+                        0.7254901960784313, 
+                        1.0
+                    ]
+                }, 
+                "custom_color": true, 
+                "flow_direction": -0.0, 
+                "flow_perturbation": 1.0, 
+                "flow_speed": 1.0, 
+                "mat_id": 1, 
+                "name": "\u6c34", 
+                "original": true
+            }, 
+            {
+                "color": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.947, 
+                        0.117, 
+                        0.007
+                    ]
+                }, 
+                "custom_color": true, 
+                "flow_direction": 0.0, 
+                "flow_perturbation": 0.3, 
+                "flow_speed": 0.2, 
+                "mat_id": 2, 
+                "name": "\u5ca9\u6d46", 
+                "original": true
+            }
+        ]
+    }, 
+    "vignetting": {
+        "vignetting_breath_rate": 0.0, 
+        "vignetting_change_range": 0.0, 
+        "vignetting_color": {
+            "__tuple__": true, 
+            "items": [
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "vignetting_open": true, 
+        "vignetting_size": 0.5
+    }
+}

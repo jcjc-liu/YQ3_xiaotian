@@ -1,0 +1,638 @@
+{
+    "trigger_dict": {
+        "423252183": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200222, 
+                            "args_list": [
+                                243
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 423252183000002, 
+                    "enable": true, 
+                    "event_type": "MOUSE_WHEEL_EVENT"
+                }
+            ], 
+            "group_id": "TQjYoWZ7Ee6LVzDQQunfyT", 
+            "p_trigger_id": null, 
+            "trigger_id": 423252183, 
+            "trigger_name": "\u53d8\u5316\u955c\u5934-\u4e0a\u6eda", 
+            "valid": true
+        }, 
+        "853971157": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "30eb832174a911eead4430d042e85208"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 853971157000100, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 853971157000002, 
+                    "enable": true, 
+                    "event_type": "GAME_ELAPSE_REPEAT_BY_FRAME"
+                }
+            ], 
+            "group_id": "TQjYoWZ7Ee6LVzDQQunfyT", 
+            "p_trigger_id": null, 
+            "trigger_id": 853971157, 
+            "trigger_name": "\u68c0\u89c6\u6b66\u5c06", 
+            "valid": true
+        }, 
+        "1650708696": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 200222, 
+                            "args_list": [
+                                243
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1650708696000001, 
+                    "enable": true, 
+                    "event_type": "MOUSE_WHEEL_EVENT"
+                }
+            ], 
+            "group_id": "TQjYoWZ7Ee6LVzDQQunfyT", 
+            "p_trigger_id": null, 
+            "trigger_id": 1650708696, 
+            "trigger_name": "\u53d8\u5316\u955c\u5934-\u4e0b\u6eda", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    853971157, 
+                    "\u68c0\u89c6\u6b66\u5c06"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    423252183, 
+                    "\u53d8\u5316\u955c\u5934-\u4e0a\u6eda"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1650708696, 
+                    "\u53d8\u5316\u955c\u5934-\u4e0b\u6eda"
+                ]
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            226762816, 
+                            "\u9009\u62e9\u96be\u5ea6"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1884123358, 
+                            "\u70b9\u51fb\u51fa\u5f81\u70b9"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1313951987, 
+                            "\u9009\u62e9\u6a21\u5f0f"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "eSbxsGZ7Ee65JDDQQunfyQ", 
+                "name": "\u51fa\u5f81\u70b9"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1350791391, 
+                            "\u70b9\u51fb\u6388\u52cb\u53f0"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1412481270, 
+                            "\u70b9\u51fb\u519b\u8854"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            641147128, 
+                            "\u70b9\u51fb\u5175\u7b26\uff08\u6388\u52cb\u53f0\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1993933045, 
+                            "\u63d0\u5347\u519b\u8854"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2093011194, 
+                            "\u9009\u4e2d\u5175\u7b26\uff08\u88c5\u5907\u533a\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1671385339, 
+                            "\u9009\u4e2d\u5175\u7b26\uff08\u4ed3\u5e93\u5206\u533a\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            955855104, 
+                            "\u70b9\u51fb\u5378\u4e0b"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            621056257, 
+                            "\u70b9\u51fb\u88c5\u914d"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            537260290, 
+                            "\u70b9\u51fb\u78e8\u783a\uff08\u88c5\u5907\u533a\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            403112195, 
+                            "\u70b9\u51fb\u78e8\u783a\uff08\u4ed3\u5e93\u533a\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "jR58nnbzEe6k3TDQQunfyT", 
+                "name": "\u6388\u52cb\u53f0"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            851103968, 
+                            "\u70b9\u51fb\u94c1\u5320\u94fa"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1141399819, 
+                            "\u70b9\u51fb\u5175\u7b26\uff08\u94c1\u5320\u94fa\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            151650572, 
+                            "\u70b9\u51fb\u795e\u5668\uff08\u94c1\u5320\u94fa\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1376571661, 
+                            "\u70b9\u51fb\u5175\u7b26\u4ed3\u5e93"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1457504526, 
+                            "\u9009\u4e2d\u5175\u7b26\uff08\u94c1\u5320\u94fa\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2026217746, 
+                            "\u9009\u4e2d\u526f\u8bcd\u6761"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1460736277, 
+                            "\u70b9\u51fb\u78e8\u783a\uff08\u94c1\u5320\u94fa\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1679175958, 
+                            "\u70b9\u51fb\u7194\u70bc"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            152486167, 
+                            "\u70b9\u51fb\u62c6\u89e3"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1890447646, 
+                            "\u70b9\u51fb\u54c1\u8d28"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1674772767, 
+                            "\u70b9\u51fb\u4e00\u952e\u62c6\u89e3"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1688772898, 
+                            "\u70b9\u51fb\u5168\u90e8\u5957\u88c5"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            528617765, 
+                            "\u70b9\u51fb\u5957\u88c5"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            780230955, 
+                            "\u70b9\u51fb\u786e\u5b9a\u62c6\u89e3"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1386492329, 
+                            "\u9009\u4e2d\u795e\u5668\uff08\u94c1\u5320\u94fa\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1172996523, 
+                            "\u70b9\u51fb\u5347\u54c1"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "qa28T3bzEe6hADDQQunfyd", 
+                "name": "\u94c1\u5320\u94fa"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2008735969, 
+                            "\u70b9\u51fb\u519b\u673a\u5904"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            771563824, 
+                            "\u70b9\u51fb\u6b66\u5c06\uff08\u519b\u673a\u5904\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2030031153, 
+                            "\u70b9\u51fb\u795e\u5668\uff08\u519b\u673a\u5904\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            442253619, 
+                            "\u70b9\u51fb\u6b66\u5c06\uff08\u88c5\u5907\uff09"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "qp9IQHbzEe6s4DDQQunfye", 
+                "name": "\u519b\u673a\u5904"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1874522338, 
+                            "\u70b9\u51fb\u6d1b\u9633\u5bab"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            147276092, 
+                            "\u60ac\u505c\u529f\u80fd"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1623789885, 
+                            "\u70b9\u51fb\u529f\u80fd"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1929339199, 
+                            "\u79fb\u51fa\u529f\u80fd"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "qzF2IXbzEe6LkzDQQunfyf", 
+                "name": "\u6d1b\u9633\u5bab"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            230359267, 
+                            "\u70b9\u51fb\u9e92\u9e9f\u6bbf"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2021044560, 
+                            "\u70b9\u51fb\u6210\u5c31\u5206\u7c7b"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1468256595, 
+                            "\u70b9\u51fb\u6210\u5c31"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "q7DfUXbzEe6BgTDQQunfya", 
+                "name": "\u9e92\u9e9f\u6bbf"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            918229220, 
+                            "\u70b9\u51fb\u5185\u52a1\u90e8"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            192823641, 
+                            "\u70b9\u51fb\u5185\u52a1\u90e8\u5206\u7c7b"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            964575578, 
+                            "\u70b9\u51fb\u9053\u5177"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "rEP3kXbzEe6t3DDQQunfyb", 
+                "name": "\u5185\u52a1\u90e8"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1557659884, 
+                            "\u70b9\u51fb\u9a81\u9a91\u8425"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2013462880, 
+                            "\u70b9\u51fb\u9a81\u9a91\u8425\u5206\u7c7b"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1798201700, 
+                            "\u70b9\u51fb\u4e00\u952e\u9886\u53d6\uff08\u9a81\u9a91\u4ee4\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1664737638, 
+                            "\u70b9\u51fb\u8bf8\u4faf\u5956\u52b1"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1949659493, 
+                            "\u70b9\u51fb\u7687\u5bb6\u5956\u52b1"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1368007021, 
+                            "\u60ac\u6d6e\u5956\u52b1\uff08\u94dc\u96c0\u53f0\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            161186158, 
+                            "\u79fb\u51fa\u5956\u52b1\uff08\u94dc\u96c0\u53f0\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            599970162, 
+                            "\u70b9\u51fb\u9886\u53d6\uff08\u94dc\u96c0\u53f0\uff09"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            20455797, 
+                            "\u70b9\u51fb\u9f99\u864e\u699c\u5206\u7c7b"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "wHy0gHb0Ee6xrTDQQunfyQ", 
+                "name": "\u9a81\u9a91\u8425"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            702030061, 
+                            "\u70b9\u51fb\u7ec3\u5175\u573a"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            481870147, 
+                            "\u70b9\u51fb\u5f00\u59cb\u7ec3\u5175"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1191928132, 
+                            "\u79fb\u5165\u8d44\u6e90"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            2163013, 
+                            "\u79fb\u51fa\u8d44\u6e90"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1371820359, 
+                            "\u79fb\u5165\u7279\u6743"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            264560968, 
+                            "\u79fb\u51fa\u7279\u6743"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            96817481, 
+                            "\u70b9\u51fb\u7279\u6743"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            407331148, 
+                            "\u7ec3\u5175\u573a\u5c40\u5185\u7edf\u8ba1"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "wVaZwHb0Ee6D4TDQQunfyR", 
+                "name": "\u7ec3\u5175\u573a"
+            }, 
+            {
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1669509182, 
+                            "\u9009\u4e2d\u6b66\u5c06"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "hEzND3cNEe6sezDQQunfyZ", 
+                "name": "\u6b66\u5c06\u5217\u8868"
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "TQjYoWZ7Ee6LVzDQQunfyT", 
+        "name": "\u4e3b\u754c\u9762"
+    }
+}

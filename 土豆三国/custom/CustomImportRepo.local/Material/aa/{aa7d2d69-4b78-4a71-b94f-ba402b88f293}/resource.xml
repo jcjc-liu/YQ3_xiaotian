@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<Version>2</Version>
+	<SMaterialData>
+		<Root>
+			<Sub />
+			<Entity type="SMaterialData">
+				<name>_material</name>
+				<info>
+					<Layers count="3" ordered="true">
+						<Element index="0">
+							<LayerName>刀模型_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="12" ordered="true">
+								<Element index="0">
+									<Name>TwistTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="1">
+									<Name>DiffuseTexture</Name>
+									<Value>6a63b3ed-3f33-499a-a28e-b7b494f2fd9c</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>12ce11e2-3f69-4890-8fb4-d5cbc94d11bf</Value>
+								</Element>
+								<Element index="3">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="4">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="6">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="8">
+									<Name>TwistStrength</Name>
+									<Value>(0.1, 0.1)</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(1.0, 1.0, 1.0, 1.5)</Value>
+								</Element>
+								<Element index="10">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="11">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="1">
+							<LayerName>刀痕_submat</LayerName>
+							<ShaderName>Effect/Basic</ShaderName>
+							<Parameters count="6" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>f6615b87-084f-4ec7-8c60-c76b7d6b9dc9</Value>
+								</Element>
+								<Element index="1">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(1.0, 5.0, 1.0, 2.0)</Value>
+								</Element>
+								<Element index="3">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="4">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="2">
+							<LayerName>刀_submat</LayerName>
+							<ShaderName>Effect/Basic</ShaderName>
+							<Parameters count="6" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>fda84c21-f369-5ddf-89eb-29cd06e29399</Value>
+								</Element>
+								<Element index="1">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(1.0, 5.0, 5.0, 1.0)</Value>
+								</Element>
+								<Element index="3">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="4">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+					</Layers>
+				</info>
+				<flags count="3" ordered="true">
+					<Element index="0">1048608</Element>
+					<Element index="1">1048608</Element>
+					<Element index="2">1048608</Element>
+				</flags>
+			</Entity>
+		</Root>
+	</SMaterialData>
+</Resource>

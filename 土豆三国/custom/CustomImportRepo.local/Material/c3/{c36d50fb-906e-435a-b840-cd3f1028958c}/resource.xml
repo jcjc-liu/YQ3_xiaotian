@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<Version>2</Version>
+	<SMaterialData>
+		<Root>
+			<Sub />
+			<Entity type="SMaterialData">
+				<name>_material</name>
+				<info>
+					<Layers count="14" ordered="true">
+						<Element index="0">
+							<LayerName>dg00_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="12" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>876149b9-d123-4f59-9ad1-c10ef9a8141b</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>71aad22f-86c7-4a28-898c-61445172ed88</Value>
+								</Element>
+								<Element index="3">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="4">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="6">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="8">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(3, 3, 3, 4)</Value>
+								</Element>
+								<Element index="10">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="11">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="1">
+							<LayerName>dg04_submat</LayerName>
+							<ShaderName>Effect/Panner</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>1f5765d9-bbfa-4bb0-b520-b796bf8c0c41</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>b9f46c7b-8a86-495b-b1fd-b686fe73a100</Value>
+								</Element>
+								<Element index="3">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 1)</Value>
+								</Element>
+								<Element index="4">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DiffuseUVOffset</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.2)</Value>
+								</Element>
+								<Element index="7">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, -0.1, 0)</Value>
+								</Element>
+								<Element index="8">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="11">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 0.7, 0.3, 0)</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>MaskUVTransform</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="14">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="2">
+							<LayerName>nq_submat</LayerName>
+							<ShaderName>Effect/Basic</ShaderName>
+							<Parameters count="6" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>39834c36-6564-49ca-8fe3-ac038dde9402</Value>
+								</Element>
+								<Element index="1">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 2)</Value>
+								</Element>
+								<Element index="3">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="4">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="3">
+							<LayerName>__none___submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="11" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>43e8a83c-bf1f-424d-a5f7-81641a2ae182</Value>
+								</Element>
+								<Element index="1">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(3, 3, 3, 7)</Value>
+								</Element>
+								<Element index="3">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="4">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="5">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="6">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+								<Element index="8">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="4">
+							<LayerName>lizi01_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="11" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>74a084cf-d6d7-4906-b8b5-a196e3f7af77</Value>
+								</Element>
+								<Element index="1">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(2, 2, 2, 5)</Value>
+								</Element>
+								<Element index="3">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="4">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="5">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="6">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+								<Element index="8">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="5">
+							<LayerName>dg02_submat</LayerName>
+							<ShaderName>Effect/Panner</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>b9f46c7b-8a86-495b-b1fd-b686fe73a100</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>12ce11e2-3f69-4890-8fb4-d5cbc94d11bf</Value>
+								</Element>
+								<Element index="3">
+									<Name>ModulateColor</Name>
+									<Value>(2, 2, 2, 4)</Value>
+								</Element>
+								<Element index="4">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DiffuseUVOffset</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.2)</Value>
+								</Element>
+								<Element index="7">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 0.9, -0.5, 0.3)</Value>
+								</Element>
+								<Element index="8">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="11">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, -0.5, 0.1)</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>MaskUVTransform</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="14">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="6">
+							<LayerName>lizi02_submat</LayerName>
+							<ShaderName>Particle</ShaderName>
+							<Parameters count="11" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>74a084cf-d6d7-4906-b8b5-a196e3f7af77</Value>
+								</Element>
+								<Element index="1">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="2">
+									<Name>ModulateColor</Name>
+									<Value>(2, 2, 2, 5)</Value>
+								</Element>
+								<Element index="3">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="4">
+									<Name>HDRScale</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="5">
+									<Name>UVScale</Name>
+									<Value>(1, 1)</Value>
+								</Element>
+								<Element index="6">
+									<Name>Local</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>BloomScale</Name>
+									<Value>0.5</Value>
+								</Element>
+								<Element index="8">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>Distortion</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="7">
+							<LayerName>rj_submat</LayerName>
+							<ShaderName>Effect/Dissipated</ShaderName>
+							<Parameters count="18" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>b9f46c7b-8a86-495b-b1fd-b686fe73a100</Value>
+								</Element>
+								<Element index="1">
+									<Name>DissipateTexture</Name>
+									<Value>4028fe20-9980-4ddb-aa24-241690e194c4</Value>
+								</Element>
+								<Element index="2">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="3">
+									<Name>DissipateEdge</Name>
+									<Value>0.1</Value>
+								</Element>
+								<Element index="4">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0.1, 0)</Value>
+								</Element>
+								<Element index="5">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 0.7, 0.1, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>DiffuseTwist</Name>
+									<Value>0.10000000149</Value>
+								</Element>
+								<Element index="7">
+									<Name>DissipateUVScolling</Name>
+									<Value>(1, 1.2, 0.1, 0)</Value>
+								</Element>
+								<Element index="8">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="10">
+									<Name>ModulateColor</Name>
+									<Value>(2, 2, 2, 2)</Value>
+								</Element>
+								<Element index="11">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="12">
+									<Name>DissipateTwsit</Name>
+									<Value>0.10000000149</Value>
+								</Element>
+								<Element index="13">
+									<Name>DissipateHighlight</Name>
+									<Value>2</Value>
+								</Element>
+								<Element index="14">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="15">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="16">
+									<Name>DissipateAlphaBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="17">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="8">
+							<LayerName>zl_submat</LayerName>
+							<ShaderName>Effect/Panner</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>54cda811-5302-4112-8673-f456ef9e553a</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>081065b7-8483-4755-a5d5-a59b938fa8de</Value>
+								</Element>
+								<Element index="3">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 2)</Value>
+								</Element>
+								<Element index="4">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DiffuseUVOffset</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.3)</Value>
+								</Element>
+								<Element index="7">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, -0.7, 0.3)</Value>
+								</Element>
+								<Element index="8">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="11">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0.1)</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>MaskUVTransform</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="14">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="9">
+							<LayerName>dg01_submat</LayerName>
+							<ShaderName>Effect/Panner</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>d136ba6a-0d59-4ba3-878c-7d6600e9d3f2</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>71aad22f-86c7-4a28-898c-61445172ed88</Value>
+								</Element>
+								<Element index="3">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 1)</Value>
+								</Element>
+								<Element index="4">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DiffuseUVOffset</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.5)</Value>
+								</Element>
+								<Element index="7">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 1, 0)</Value>
+								</Element>
+								<Element index="8">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="11">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>MaskUVTransform</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="14">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="10">
+							<LayerName>dg02_submat</LayerName>
+							<ShaderName>Effect/Panner</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>b9f46c7b-8a86-495b-b1fd-b686fe73a100</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>12ce11e2-3f69-4890-8fb4-d5cbc94d11bf</Value>
+								</Element>
+								<Element index="3">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 3)</Value>
+								</Element>
+								<Element index="4">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DiffuseUVOffset</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0.2)</Value>
+								</Element>
+								<Element index="7">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1.2, -0.5, 0.3)</Value>
+								</Element>
+								<Element index="8">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="9">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="11">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, -0.5, 0.1)</Value>
+								</Element>
+								<Element index="12">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="13">
+									<Name>MaskUVTransform</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="14">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="11">
+							<LayerName>wenzi_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="12" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>49a1ad46-0ad2-43e7-8169-58335e912f84</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>081065b7-8483-4755-a5d5-a59b938fa8de</Value>
+								</Element>
+								<Element index="3">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0.1)</Value>
+								</Element>
+								<Element index="4">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="6">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="8">
+									<Name>TwistStrength</Name>
+									<Value>(0.1, 0.2)</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(1, 1, 1, 2)</Value>
+								</Element>
+								<Element index="10">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(4, 1, -0.3, 0.4)</Value>
+								</Element>
+								<Element index="11">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="12">
+							<LayerName>fhl01_submat</LayerName>
+							<ShaderName>Effect/Fresnel</ShaderName>
+							<Parameters count="15" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>08f690d7-b2a1-4ddc-a9f2-8194e033c5b7</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>00000000-0000-0000-0000-000000000000</Value>
+								</Element>
+								<Element index="3">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="4">
+									<Name>FresnelPower</Name>
+									<Value>0.5</Value>
+								</Element>
+								<Element index="5">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="6">
+									<Name>FresnelAlpha</Name>
+									<Value>3</Value>
+								</Element>
+								<Element index="7">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="8">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="9">
+									<Name>InvFadeDistance</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="10">
+									<Name>ModulateColor</Name>
+									<Value>(2, 2, 2, 3)</Value>
+								</Element>
+								<Element index="11">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="12">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="13">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="14">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+						<Element index="13">
+							<LayerName>dg00_submat</LayerName>
+							<ShaderName>Effect/Twisted</ShaderName>
+							<Parameters count="12" ordered="true">
+								<Element index="0">
+									<Name>DiffuseTexture</Name>
+									<Value>876149b9-d123-4f59-9ad1-c10ef9a8141b</Value>
+								</Element>
+								<Element index="1">
+									<Name>MaskTexture</Name>
+									<Value>7bdc89cc-8b01-45f9-9415-f7bca8a4e567</Value>
+								</Element>
+								<Element index="2">
+									<Name>TwistTexture</Name>
+									<Value>71aad22f-86c7-4a28-898c-61445172ed88</Value>
+								</Element>
+								<Element index="3">
+									<Name>TwistUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="4">
+									<Name>Soft</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="5">
+									<Name>DepthBias</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="6">
+									<Name>HDRScale</Name>
+									<Value>1</Value>
+								</Element>
+								<Element index="7">
+									<Name>FogStrength</Name>
+									<Value>0</Value>
+								</Element>
+								<Element index="8">
+									<Name>TwistStrength</Name>
+									<Value>(0, 0)</Value>
+								</Element>
+								<Element index="9">
+									<Name>ModulateColor</Name>
+									<Value>(3, 3, 3, 4)</Value>
+								</Element>
+								<Element index="10">
+									<Name>DiffuseUVScolling</Name>
+									<Value>(1, 1, 0, 0)</Value>
+								</Element>
+								<Element index="11">
+									<Name>BloomScale</Name>
+									<Value>1</Value>
+								</Element>
+							</Parameters>
+							<InactiveParameters count="0" ordered="true" />
+							<MultiPassMaterials count="0" ordered="true" />
+						</Element>
+					</Layers>
+				</info>
+				<flags count="14" ordered="true">
+					<Element index="0">1048608</Element>
+					<Element index="1">1048608</Element>
+					<Element index="2">1048608</Element>
+					<Element index="3">1048608</Element>
+					<Element index="4">1048608</Element>
+					<Element index="5">1048608</Element>
+					<Element index="6">1048608</Element>
+					<Element index="7">1048608</Element>
+					<Element index="8">1048608</Element>
+					<Element index="9">1048608</Element>
+					<Element index="10">1048608</Element>
+					<Element index="11">1048608</Element>
+					<Element index="12">1048608</Element>
+					<Element index="13">1048608</Element>
+				</flags>
+			</Entity>
+		</Root>
+	</SMaterialData>
+</Resource>
