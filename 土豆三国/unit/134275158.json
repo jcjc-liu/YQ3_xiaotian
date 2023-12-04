@@ -21,6 +21,26 @@
                     "bp": false, 
                     "element_id": 148369410000005, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "REMOVE_BUFF_TYPE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134238122
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 148369410000010, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
